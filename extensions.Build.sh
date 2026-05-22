@@ -1,1 +1,0 @@
-docker build --no-cache -f extensions.Dockerfile . -t n0md/jmeter:5.6.3-alpine3.23.4
