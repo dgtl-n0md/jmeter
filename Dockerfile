@@ -1,7 +1,7 @@
 # inspired by https://github.com/hauptmedia/docker-jmeter  and
 # https://github.com/hhcordero/docker-jmeter-server/blob/master/Dockerfile and
 # https://github.com/justb4/docker-jmeter
-FROM alpine
+FROM alpine:3.23.4
 
 ARG JMETER_VERSION="5.6.3"
 ENV JMETER_HOME /opt/apache-jmeter-${JMETER_VERSION}
